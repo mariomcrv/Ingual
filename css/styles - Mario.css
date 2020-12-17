@@ -1,0 +1,70 @@
+
+/* tag selectors */
+h1, h2, h3, h4, h5, h6 {
+  color: darkslategray;
+}
+
+p {
+  color: grey;
+}
+
+b {
+  text-decoration: none;
+  color: #fa9579
+}
+
+/* header section */
+header .container-fluid {
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+  background-color: #425e92;
+}
+
+.navbar-brand {
+  font-size: 3rem;
+  font-family: 'Lobster', cursive;
+  text-decoration: none;
+  color: white;
+}
+
+.nav-link {
+  margin-left: 6rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: white;
+}
+
+.fab:hover, .navbar-brand:hover, .nav-link:hover{
+  color: #fa9579;
+}
+
+/* content section*/
+.content-image {
+  width: 80%;
+  display: block;
+  margin: auto;
+}
+
+.container-fluid {
+  padding: 5% 10%;
+}
+
+/* footer section */
+footer .container-fluid {
+  text-align: center;
+  line-height: 2;
+  padding-top: 2%;
+  padding-bottom: 1%;
+  background-color: #5fe1d9;
+}
+
+footer p {
+  color: #425e92;
+}
+
+/* footer section icons*/
+.fab {
+  margin: 0 8px;
+  color: #425e92;
+}
