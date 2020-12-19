@@ -7,22 +7,18 @@ p {
   color: grey;
 }
 
-body, button{
-  font-family: 'Lobster';
-}
-input, textarea{
-  font-family: 'Noto Sans JP', sans-serif;
-}
-
 a{
   text-decoration: none;
+}
+
+.container-fluid {
+  padding: 5% 10%;
 }
 
 /* header section */
 header .container-fluid {
   padding-top: 1.5%;
   padding-bottom: 1.5%;
-  border: 1px solid #d3d3d3;
   background-color: #425e92;
 }
 
@@ -51,46 +47,32 @@ header .container-fluid {
   padding: 50px;
 }
 
-.main-h h1,h2,h4{
+.main-h h1,h2{
   text-align: center;
   padding: 5px;
   letter-spacing: 1px;
 }
 
 .main-h h1{
-  color: #e4e978;
-  font-family: 'Lobster';
+  color: #425e92;
   font-size: 70px;
 }
 
 .main-h h2{
-  color: #5fe1d9;
-}
-
-.main-h h4{
-  color: #707070;
-  font-family: 'Noto Sans JP', sans-serif;
+  color: grey;
   font-size: 20px;
-  padding-bottom: 30px;
 }
-
-.main-h h4 a{
-  color:#9dab86;
-}  
-.main-h h4 a:hover{     
-    background: #fa9579;
-    cursor: pointer;
-}
-
 
 .flexbox-container{
-  background-color: #e8e8e8;
+  background-color: #f1f1f1;
   justify-content: center;
   display: flex;
   align-items: center;
   align-content: center;
   padding: 20px;
   padding-right: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .flexbox-container-icons{
@@ -106,14 +88,13 @@ img {
 }
 
 .flexbox-container-icons h5{
-  color: #51adcf;
+  color: #425e92;
   font-size: 2rem;
 }
 
 .flexbox-container-icons p{
-  color: #707070;
+  color: grey;
   font-size: 1.3rem;
-  font-family: 'Noto Sans JP', sans-serif;
 }
 
 .flexbox-container-images{
@@ -168,14 +149,14 @@ img {
   box-shadow: 2px 0px 30px rgba(0,0,0,0.1);
 }
 .c-heading h1{
-  color: #425e92;
+  color: darkslategray;
   font-size: 2.5rem;
   margin: 0px;
   padding: 0px;
   text-align: center;
 }
 .c-heading p{
-  color: #425e92;
+  color: darkslategray;
   font-size: 1.4rem;
   font-weight: lighter;
   margin: 0px;

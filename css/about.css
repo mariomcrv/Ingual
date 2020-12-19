@@ -1,7 +1,7 @@
 
 /* tag selectors */
 h1, h2, h3, h4, h5, h6 {
-  color: darkslategray;
+  color: #425e92;
 }
 
 p {
@@ -13,6 +13,7 @@ header .container-fluid {
   padding-top: 1.5%;
   padding-bottom: 1.5%;
   background-color: #425e92;
+
 }
 
 .navbar-brand {
@@ -35,14 +36,65 @@ header .container-fluid {
 }
 
 /* content section*/
-.content-image {
-  width: 80%;
-  display: block;
-  margin: auto;
-}
 
 .container-fluid {
   padding: 5% 10%;
+  clear: both;
+  height: auto;
+  width: 100%; 
+
+}
+
+/* Mision and values section*/
+.row1 {
+  height: 50%;
+  margin: auto;
+  
+}
+/* What our users say section*/
+.row2 {
+  height: 50%;
+  margin: auto;
+}
+
+/* Setting for images and description of the team section*/
+.rowTop {
+height: 25%;
+text-align: left;
+}
+.content-image1 {
+  width: 20%;
+  float: left;
+  margin-right:10px;
+  border-radius: 50%;
+
+}
+.rowMiddle {
+height: 25%;
+text-align: left;
+}
+.content-image2 {
+  width: 20%;
+  float: right;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.rowBottom {
+height: 25%;
+text-align: left;
+
+}
+.content-image3 {
+  width: 20%;
+  float: left;
+  margin-right: 10px;
+  border-radius: 50%;
+
+}
+/* zoom for the pictures*/
+.col-lg-6 img:hover {
+transform: scale(1.8);
 }
 
 /* footer section */
@@ -63,3 +115,40 @@ footer p {
   margin: 0 8px;
   color: #425e92;
 }
+
+/* Comments slideshow container */
+.comments-container {
+  position: relative;
+  height: 25%;
+  margin: auto;
+  width: 100%;
+
+}
+
+/* Slides */
+.myComments {
+  display: none;
+  padding: 4%;
+  text-align: center;
+
+}
+
+/* The dot indicator container */
+.dot-container {
+  text-align: center;
+  padding: 8%;
+  
+}
+
+/* The dots indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #5fe1d9;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 1000ms linear;
+}
+

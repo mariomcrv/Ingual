@@ -13,6 +13,7 @@ header .container-fluid {
   padding-top: 1.5%;
   padding-bottom: 1.5%;
   background-color: #425e92;
+ 
 }
 
 .navbar-brand {
@@ -31,7 +32,8 @@ header .container-fluid {
 }
 
 .fab:hover, .navbar-brand:hover, .nav-link:hover{
-  color: #fa9579;
+color: #fa9579;
+transform: scale(1.5);
 }
 
 /* content section*/
@@ -39,12 +41,18 @@ header .container-fluid {
   width: 80%;
   display: block;
   margin: auto;
+  border-radius: 50%;
 }
 
 .container-fluid {
   padding: 5% 10%;
+  
 }
 
+.col-lg-6 a:hover{
+color: #ffabe1;
+}
+	
 /* footer section */
 footer .container-fluid {
   text-align: center;
@@ -63,3 +71,4 @@ footer p {
   margin: 0 8px;
   color: #425e92;
 }
+
